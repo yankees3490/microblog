@@ -5,7 +5,7 @@ from app import app, db
 from app.forms import LoginForm, RegistrationForm, EditProfileForm
 from app.models import User
 from datetime import datetime
-
+#Test Change Here
 @app.before_request
 def before_request():
     if current_user.is_authenticated:
